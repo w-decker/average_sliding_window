@@ -63,7 +63,7 @@ ylabel("cosine amplitude")
 r = zeros(60, nt);
 h = zeros(60, 1);
 for delta = 1:60
-    %[r(delta, :), h(delta)] = swc(delta, 1, length=nt, theta=theta, TR=TR, Hz=Hz);
+    % [r(delta, :), h(delta)] = swc(delta, length=nt, theta=theta, TR=TR, Hz=Hz);
     [r(delta, :), h(delta)] = swc_loop(x(:), y(:), delta, TR);
 end
 h = repmat(h, 1, nt);
@@ -117,8 +117,3 @@ ylim([-.4, .6])
 yline(.2)
 xlabel("h (window size)")
 ylabel("covariance")
-
-
-
-
-plot(r(24, :))
