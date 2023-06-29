@@ -31,3 +31,4 @@ codegen/
 
 # Cloud based storage dotfile
 .MATLABDriveTag
+__pycache__/swc_module.cpython-311.pyc
