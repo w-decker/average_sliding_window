@@ -25,7 +25,7 @@ h = np.tile(h, (1, nt))
 z = r != 0
 r1 = r[24, :]
 z = r1 != 0
-G = [None] * np.count_nonzero(z)
+G = [None] * np.count_nonzero(z, axis=0)
 
 for g in range(np.count_nonzero(z, axis=0)):
     G[g] = np.convolve(r1[z], np.ones(g+1) / (g+1), mode='valid')
