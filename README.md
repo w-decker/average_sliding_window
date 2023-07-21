@@ -1,5 +1,8 @@
 # Average Sliding Window Correlation Analysis
 
+<!--Buttons-->
+[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=w-decker/average_sliding_window)
+
 This analysis is a derivation of [Vergara et al. (2019)](https://onlinelibrary.wiley.com/doi/epdf/10.1002/hbm.24509).
 
 | Filename | Description | Status |
